@@ -4,13 +4,13 @@
 *           Maya Heat Transfer Technologies Ltd, 514-369-5706    
 *
 *        INPUT FILE: mapdata.xml
-*        CREATED ON: Sun Feb 16 13:40:50 2025
-*          SIM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\Etude Préliminaire\prelim_sim.sim
-*          FEM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\Etude Préliminaire\prelim_fem.fem
+*        CREATED ON: Wed Mar 12 20:49:46 2025
+*          SIM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\MecaFlu-MECA0025\Etude Préliminaire\prelim_sim.sim
+*          FEM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\MecaFlu-MECA0025\Etude Préliminaire\prelim_fem.fem
 *
 *=============================================================== 
 -->
-<SolutionFile version="NX 2206"
+<SolutionFile version="NX 2406"
   solver="Simcenter 3D Thermal/Flow"
   class="Flow"
   solution="Flow"
@@ -40,9 +40,6 @@
       </Property>
       <Property name="Run Directory Location">
         <Value></Value>
-      </Property>
-      <Property name="Parallel Flow Solver Scheme">
-        <Value>0</Value>
       </Property>
       <Property name="Turbulence Model">
         <Value>0</Value>
