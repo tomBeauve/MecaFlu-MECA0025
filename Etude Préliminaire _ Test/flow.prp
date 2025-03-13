@@ -1,0 +1,54 @@
+-1
+       201
+Material Description                    
+Version 1.2
+        -1
+        -1
+         1         6
+         1         5         1         0
+Enclosure content
+         1         2         6         2
+MECA0025_-_blood_prelim_study           liquid  
+USE_ATTRIBUTE                                    1
+SOLVE_ATTRIBUTE                                  1
+DENSITY                                          0
+  0.105000003714E-05
+SPECIFIC_HEAT_P                                  0
+  0.418600000000E+07
+SPECIFIC_HEAT_V                                  0
+  0.418600000000E+07
+DYNAMIC_VISCOSITY                                0
+  0.380000005862E-05
+CONDUCTIVITY                                     0
+  0.598000000000E+03
+THERMAL_EXPANSION_COEFFICIENT                    0
+  0.999999974738E-04
+-999
+-1
+       309
+Enclosures material information         
+Version 1.0
+        -1
+        -1
+         1
+         1         0         0         3         0         0         0         0
+-999
+-1
+       304
+Fan head loss information               
+Version 1.0
+        -1
+        -1
+         0
+         0
+-999
+-1
+       302
+Variable Boundary Conditions            
+Version 1.1
+        -1
+        -1
+         1
+         1         0
+  0.100000007812E+06
+-999

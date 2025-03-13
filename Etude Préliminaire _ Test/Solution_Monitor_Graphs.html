@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+  <head>
+    <title>Solution Monitor Graphs</title>
+    <script type = "text/javascript">
+      var isPluginLoaded = false;
+      function PluginLoaded() {
+        isPluginLoaded = true;
+      }
+    </script>
+    <script src = "plotly-latest.min.js" onload="PluginLoaded()"></script>
+    <script src = "file:///C:/Program Files/Siemens/NX2406/nxcae_extras/tmg/js/plotly-latest.min.js" onload="PluginLoaded()"></script>
+    <script src = "https://cdn.plot.ly/plotly-latest.min.js" onload="PluginLoaded()"></script>
+  </head>
+  <body>
+    <div id = 'Flow Enclosure - Steady State Convergence'></div> 
+    <script> 
+      var xData = [
+      [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53],
+      [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53],
+      [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53],
+      [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53]
+      ];
+      var yData = [
+      [20,0.0204573,0.00647147,0.00111214,0.000621687,0.000370079,0.000235057,0.000154294,0.000102743,6.8701e-05,4.58413e-05,3.03971e-05,1.99763e-05,1.29866e-05,8.34018e-06,5.28402e-06,3.29928e-06,2.02841e-06,1.22688e-06,7.29528e-07,4.26195e-07,2.44421e-07,1.37558e-07,7.59173e-08,4.10267e-08,2.16868e-08,1.1221e-08,5.66845e-09,2.81849e-09,1.39905e-09,7.19971e-10,4.0741e-10,2.62449e-10,1.8615e-10,1.37923e-10,1.03542e-10,7.79477e-11,5.86065e-11,4.39756e-11,3.2943e-11,2.46226e-11,1.83578e-11,1.36565e-11,1.01476e-11,7.53322e-12,5.57187e-12,4.1384e-12,3.05617e-12,2.30013e-12,1.75473e-12,1.33424e-12,1.10309e-12,1e-12],
+      [1e-12,0.00203486,9.46725e-05,3.42508e-05,1.04168e-05,1.90513e-06,5.93722e-07,3.10532e-07,1.81938e-07,1.19543e-07,7.94999e-08,5.52548e-08,3.89463e-08,2.72029e-08,1.89664e-08,1.30298e-08,8.81233e-09,5.87579e-09,3.8186e-09,2.45111e-09,1.54395e-09,9.59199e-10,5.77815e-10,3.44534e-10,1.96923e-10,1.11471e-10,6.23381e-11,3.36435e-11,1.77103e-11,9.22174e-12,4.82728e-12,2.67622e-12,1.55192e-12,1.03299e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12],
+      [1e-12,4.68935e-08,2.86438e-06,2.16733e-06,1.42892e-06,4.98202e-07,1.96939e-07,9.09288e-08,4.62054e-08,3.06317e-08,1.79238e-08,1.2583e-08,8.84838e-09,5.48817e-09,3.17883e-09,1.8861e-09,1.18358e-09,7.78827e-10,6.81767e-10,4.0015e-10,2.61258e-10,2.123e-10,1.04303e-10,8.47182e-11,4.3042e-11,3.4438e-11,1.64804e-11,1.09767e-11,4.63696e-12,2.39767e-12,1.27609e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12],
+      [0.246906,5.38981e-05,7.94459e-06,1.88474e-06,4.03529e-07,1.83545e-07,7.33734e-08,3.51176e-08,2.26881e-08,1.6204e-08,1.21219e-08,8.98575e-09,6.36625e-09,4.24663e-09,2.69545e-09,1.69004e-09,1.13852e-09,8.62335e-10,6.66665e-10,5.01899e-10,3.52586e-10,2.30645e-10,1.4458e-10,8.82356e-11,5.20623e-11,2.97726e-11,1.70311e-11,9.1378e-12,4.84868e-12,2.5355e-12,1.31571e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12,1e-12]
+      ];
+      var colors  = ['rgba( 12, 36, 97,1.0)','rgba(106,176, 76,1.0)','rgba(179, 57, 57,1.0)',
+                     'rgba(250,152, 58,1.0)','rgba(115,115,115,1.0)','rgba( 49,130,189,1.0)','rgba(189,189,189,1.0)'];
+      var colors2 = ['rgba( 12, 36, 97,0.5)','rgba(106,176, 76,0.5)','rgba(179, 57, 57,0.5)',
+                     'rgba(250,152, 58,0.5)','rgba(115,115,115,0.5)','rgba( 49,130,189,0.5)','rgba(189,189,189,0.5)'];
+      var lineSize = [2, 4, 2, 2, 2, 2];
+      var labels = ['U - Mom','V - Mom','W - Mom','P - Mass'];
+      var data = [];
+      for (var i = 0; i < xData.length; i++) {
+        var result = {
+           x: xData[i],
+           y : yData[i],
+           type : 'scatter',
+           showlegend: true,
+           legendgroup: labels[i],
+           mode : 'lines',
+           name : labels[i],
+           line : {
+              color: colors[i]
+           }
+        };
+        var result2 = {
+           x: [xData[i][0], xData[i][52]],
+           y : [yData[i][0], yData[i][52]],
+           type : 'scatter',
+           showlegend: false,
+           legendgroup: labels[i],
+           mode : 'markers',
+           name : '',
+           hoverinfo : 'skip',
+           marker : {
+              color: colors2[i],
+              size : 12
+           }
+        };
+        data.push(result, result2);
+      }
+      var layout = {
+        height : 900,
+        width : 1200,
+        xaxis : {
+           showline: true,
+           showgrid : false,
+           zeroline : false,
+           showticklabels : true,
+           linecolor : 'rgb(204,204,204)',
+           linewidth : 2,
+           autotick : true,
+           ticks : 'outside',
+           tickcolor : 'rgb(204,204,204)',
+           tickwidth : 2,
+           ticklen : 5,
+           tickfont : {
+              family: 'Arial',
+              size : 12,
+              color : 'rgb(82, 82, 82)'
+           }
+        },
+        yaxis: {
+           showline: true,
+           showgrid : false,
+           zeroline : false,
+           showticklabels : true,
+           linecolor : 'rgb(204,204,204)',
+           linewidth : 2,
+           autotick : true,
+           ticks : 'outside',
+           tickcolor : 'rgb(204,204,204)',
+           tickwidth : 2,
+           ticklen : 5,
+           tickfont : {
+              family: 'Arial',
+              size : 12,
+              color : 'rgb(82, 82, 82)'
+           },
+           type: 'log'
+        },
+        autosize : false,
+        margin : {
+           autoexpand: true,
+           l : 100,
+           r : 150,
+           t : 110
+        },
+        annotations : [
+           {
+              xref: 'paper',
+              yref : 'paper',
+              x : 0.0,
+              y : 1.05,
+              xanchor : 'left',
+              yanchor : 'bottom',
+              text : 'Flow Enclosure - Steady State Convergence',
+              font : {
+                 family: 'Arial',
+                 size : 30,
+                 color : 'rgb(37,37,37)'
+              },
+              showarrow : false
+           },
+           {
+              xref: 'paper',
+              yref : 'paper',
+              x : 0.5,
+              y : -0.1,
+              xanchor : 'center',
+              yanchor : 'top',
+              text : 'Iterations',
+              showarrow : false,
+              font : {
+                 family: 'Arial',
+                 size : 22,
+                 color : 'rgb(150,150,150)'
+              }
+           }
+        ]
+      };
+      for (var i = 0; i < xData.length; i++) {
+        var result = {
+        xref: 'paper',
+        x : 0.05,
+        y : Math.log(yData[i][0])/Math.log(10),
+        text : yData[i][0].toExponential(1),
+        xanchor : 'right',
+        yanchor : 'middle',
+        showarrow : false,
+        clicktoshow  : 'onout',
+        font : {
+           family: 'Arial',
+           size : 16,
+           color : 'black'
+        }
+        };
+        var result2 = {
+           xref: 'paper',
+           x : 0.95,
+           y : Math.log(yData[i][52])/Math.log(10),
+           text : yData[i][52].toExponential(1),
+           xanchor : 'left',
+           yanchor : 'middle',
+           font : {
+              family: 'Arial',
+              size : 16,
+              color : 'black'
+           },
+           showarrow : false,
+           clicktoshow  : 'onout'
+        };
+        layout.annotations.push(result, result2);
+      }
+      var config = {responsive: true,
+                    displaylogo: false};
+      Plotly.newPlot('Flow Enclosure - Steady State Convergence', data, layout, config);
+    </script>
+
+    <div id = 'Fluid Temperature'></div> 
+    <script> 
+      var xData = [
+      [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53],
+      [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53],
+      [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53]
+      ];
+      var yData = [
+      [20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20],
+      [20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20],
+      [20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20]
+      ];
+      var colors  = ['rgba( 12, 36, 97,1.0)','rgba(106,176, 76,1.0)','rgba(179, 57, 57,1.0)',
+                     'rgba(250,152, 58,1.0)','rgba(115,115,115,1.0)','rgba( 49,130,189,1.0)','rgba(189,189,189,1.0)'];
+      var colors2 = ['rgba( 12, 36, 97,0.5)','rgba(106,176, 76,0.5)','rgba(179, 57, 57,0.5)',
+                     'rgba(250,152, 58,0.5)','rgba(115,115,115,0.5)','rgba( 49,130,189,0.5)','rgba(189,189,189,0.5)'];
+      var lineSize = [2, 4, 2, 2, 2, 2];
+      var labels = ['Min','Ave','Max'];
+      var data = [];
+      for (var i = 0; i < xData.length; i++) {
+        var result = {
+           x: xData[i],
+           y : yData[i],
+           type : 'scatter',
+           showlegend: true,
+           legendgroup: labels[i],
+           mode : 'lines',
+           name : labels[i],
+           line : {
+              color: colors[i],
+              width : lineSize[i]
+           }
+        };
+        var result2 = {
+           x: [xData[i][0], xData[i][53]],
+           y : [yData[i][0], yData[i][53]],
+           type : 'scatter',
+           showlegend: false,
+           legendgroup: labels[i],
+           mode : 'markers',
+           name : '',
+           hoverinfo : 'skip',
+           marker : {
+              color: colors2[i],
+              size : 12
+           }
+        };
+        data.push(result, result2);
+      }
+      var layout = {
+        height : 900,
+        width : 1200,
+        xaxis : {
+           showline: true,
+           showgrid : false,
+           zeroline : false,
+           showticklabels : true,
+           linecolor : 'rgb(204,204,204)',
+           linewidth : 2,
+           autotick : true,
+           ticks : 'outside',
+           tickcolor : 'rgb(204,204,204)',
+           tickwidth : 2,
+           ticklen : 5,
+           tickfont : {
+              family: 'Arial',
+              size : 12,
+              color : 'rgb(82, 82, 82)'
+           }
+        },
+        yaxis: {
+           showline: true,
+           showgrid : false,
+           zeroline : false,
+           showticklabels : true,
+           linecolor : 'rgb(204,204,204)',
+           linewidth : 2,
+           autotick : true,
+           ticks : 'outside',
+           tickcolor : 'rgb(204,204,204)',
+           tickwidth : 2,
+           ticklen : 5,
+           tickfont : {
+              family: 'Arial',
+              size : 12,
+              color : 'rgb(82, 82, 82)'
+           },
+        },
+        autosize : false,
+        margin : {
+           autoexpand: true,
+           l : 100,
+           r : 150,
+           t : 110
+        },
+        annotations : [
+           {
+              xref: 'paper',
+              yref : 'paper',
+              x : 0.0,
+              y : 1.05,
+              xanchor : 'left',
+              yanchor : 'bottom',
+              text : 'Fluid Temperature',
+              font : {
+                 family: 'Arial',
+                 size : 30,
+                 color : 'rgb(37,37,37)'
+              },
+              showarrow : false
+           },
+           {
+              xref: 'paper',
+              yref : 'paper',
+              x : 0.5,
+              y : -0.1,
+              xanchor : 'center',
+              yanchor : 'top',
+              text : 'Iterations',
+              showarrow : false,
+              font : {
+                 family: 'Arial',
+                 size : 22,
+                 color : 'rgb(150,150,150)'
+              }
+           }
+        ]
+      };
+      for (var i = 0; i < xData.length; i++) {
+        var result = {
+        xref: 'paper',
+        x : 0.05,
+        y : yData[i][0],
+        text : yData[i][0],
+        xanchor : 'right',
+        yanchor : 'middle',
+        showarrow : false,
+        clicktoshow  : 'onout',
+        font : {
+           family: 'Arial',
+           size : 16,
+           color : 'black'
+        }
+        };
+        var result2 = {
+           xref: 'paper',
+           x : 0.95,
+           y : yData[i][53],
+           text : yData[i][53],
+           xanchor : 'left',
+           yanchor : 'middle',
+           font : {
+              family: 'Arial',
+              size : 16,
+              color : 'black'
+           },
+           showarrow : false,
+           clicktoshow  : 'onout'
+        };
+        layout.annotations.push(result, result2);
+      }
+      var config = {responsive: true,
+                    displaylogo: false};
+      Plotly.newPlot('Fluid Temperature', data, layout, config);
+    </script>
+
+    <div id = 'Fluid Velocity'></div> 
+    <script> 
+      var xData = [
+      [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53],
+      [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53],
+      [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53]
+      ];
+      var yData = [
+      [0,16.0556,17.523,3.86575,2.20785,1.94002,1.83287,1.76707,1.72233,1.69208,1.67123,1.65736,1.64889,1.64431,1.64195,1.64104,1.64093,1.64122,1.64163,1.64208,1.64244,1.64275,1.64298,1.64313,1.64324,1.6433,1.64335,1.64337,1.64339,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434,1.6434],
+      [0,231.351,448.823,451.889,448.416,446.232,444.872,443.997,443.426,443.054,442.813,442.658,442.56,442.498,442.46,442.437,442.423,442.415,442.41,442.407,442.406,442.405,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404,442.404],
+      [0,312.545,582.488,630.792,659.341,681.258,698.15,711.013,720.668,727.822,733.05,736.814,739.477,741.327,742.588,743.43,743.982,744.336,744.559,744.697,744.781,744.83,744.859,744.875,744.885,744.89,744.892,744.894,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895,744.895]
+      ];
+      var colors  = ['rgba( 12, 36, 97,1.0)','rgba(106,176, 76,1.0)','rgba(179, 57, 57,1.0)',
+                     'rgba(250,152, 58,1.0)','rgba(115,115,115,1.0)','rgba( 49,130,189,1.0)','rgba(189,189,189,1.0)'];
+      var colors2 = ['rgba( 12, 36, 97,0.5)','rgba(106,176, 76,0.5)','rgba(179, 57, 57,0.5)',
+                     'rgba(250,152, 58,0.5)','rgba(115,115,115,0.5)','rgba( 49,130,189,0.5)','rgba(189,189,189,0.5)'];
+      var lineSize = [2, 4, 2, 2, 2, 2];
+      var labels = ['Min','Ave','Max'];
+      var data = [];
+      for (var i = 0; i < xData.length; i++) {
+        var result = {
+           x: xData[i],
+           y : yData[i],
+           type : 'scatter',
+           showlegend: true,
+           legendgroup: labels[i],
+           mode : 'lines',
+           name : labels[i],
+           line : {
+              color: colors[i],
+              width : lineSize[i]
+           }
+        };
+        var result2 = {
+           x: [xData[i][0], xData[i][53]],
+           y : [yData[i][0], yData[i][53]],
+           type : 'scatter',
+           showlegend: false,
+           legendgroup: labels[i],
+           mode : 'markers',
+           name : '',
+           hoverinfo : 'skip',
+           marker : {
+              color: colors2[i],
+              size : 12
+           }
+        };
+        data.push(result, result2);
+      }
+      var layout = {
+        height : 900,
+        width : 1200,
+        xaxis : {
+           showline: true,
+           showgrid : false,
+           zeroline : false,
+           showticklabels : true,
+           linecolor : 'rgb(204,204,204)',
+           linewidth : 2,
+           autotick : true,
+           ticks : 'outside',
+           tickcolor : 'rgb(204,204,204)',
+           tickwidth : 2,
+           ticklen : 5,
+           tickfont : {
+              family: 'Arial',
+              size : 12,
+              color : 'rgb(82, 82, 82)'
+           }
+        },
+        yaxis: {
+           showline: true,
+           showgrid : false,
+           zeroline : false,
+           showticklabels : true,
+           linecolor : 'rgb(204,204,204)',
+           linewidth : 2,
+           autotick : true,
+           ticks : 'outside',
+           tickcolor : 'rgb(204,204,204)',
+           tickwidth : 2,
+           ticklen : 5,
+           tickfont : {
+              family: 'Arial',
+              size : 12,
+              color : 'rgb(82, 82, 82)'
+           },
+        },
+        autosize : false,
+        margin : {
+           autoexpand: true,
+           l : 100,
+           r : 150,
+           t : 110
+        },
+        annotations : [
+           {
+              xref: 'paper',
+              yref : 'paper',
+              x : 0.0,
+              y : 1.05,
+              xanchor : 'left',
+              yanchor : 'bottom',
+              text : 'Fluid Velocity',
+              font : {
+                 family: 'Arial',
+                 size : 30,
+                 color : 'rgb(37,37,37)'
+              },
+              showarrow : false
+           },
+           {
+              xref: 'paper',
+              yref : 'paper',
+              x : 0.5,
+              y : -0.1,
+              xanchor : 'center',
+              yanchor : 'top',
+              text : 'Iterations',
+              showarrow : false,
+              font : {
+                 family: 'Arial',
+                 size : 22,
+                 color : 'rgb(150,150,150)'
+              }
+           }
+        ]
+      };
+      for (var i = 0; i < xData.length; i++) {
+        var result = {
+        xref: 'paper',
+        x : 0.05,
+        y : yData[i][0],
+        text : yData[i][0],
+        xanchor : 'right',
+        yanchor : 'middle',
+        showarrow : false,
+        clicktoshow  : 'onout',
+        font : {
+           family: 'Arial',
+           size : 16,
+           color : 'black'
+        }
+        };
+        var result2 = {
+           xref: 'paper',
+           x : 0.95,
+           y : yData[i][53],
+           text : yData[i][53],
+           xanchor : 'left',
+           yanchor : 'middle',
+           font : {
+              family: 'Arial',
+              size : 16,
+              color : 'black'
+           },
+           showarrow : false,
+           clicktoshow  : 'onout'
+        };
+        layout.annotations.push(result, result2);
+      }
+      var config = {responsive: true,
+                    displaylogo: false};
+      Plotly.newPlot('Fluid Velocity', data, layout, config);
+    </script>
+
+    <div id = 'Fluid Pressure'></div> 
+    <script> 
+      var xData = [
+      [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53],
+      [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53],
+      [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53]
+      ];
+      var yData = [
+      [0,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852,-90.6852],
+      [0,-89.7824,-89.7474,-90.5187,-90.5701,-90.5786,-90.5826,-90.5848,-90.586,-90.5866,-90.5868,-90.5869,-90.5869,-90.5868,-90.5867,-90.5866,-90.5866,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865,-90.5865],
+      [0,-88.8789,-88.7926,-90.3155,-90.4076,-90.418,-90.4218,-90.4235,-90.4242,-90.4243,-90.4243,-90.4241,-90.4239,-90.4237,-90.4235,-90.4234,-90.4233,-90.4232,-90.4232,-90.4232,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231,-90.4231]
+      ];
+      var colors  = ['rgba( 12, 36, 97,1.0)','rgba(106,176, 76,1.0)','rgba(179, 57, 57,1.0)',
+                     'rgba(250,152, 58,1.0)','rgba(115,115,115,1.0)','rgba( 49,130,189,1.0)','rgba(189,189,189,1.0)'];
+      var colors2 = ['rgba( 12, 36, 97,0.5)','rgba(106,176, 76,0.5)','rgba(179, 57, 57,0.5)',
+                     'rgba(250,152, 58,0.5)','rgba(115,115,115,0.5)','rgba( 49,130,189,0.5)','rgba(189,189,189,0.5)'];
+      var lineSize = [2, 4, 2, 2, 2, 2];
+      var labels = ['Min','Ave','Max'];
+      var data = [];
+      for (var i = 0; i < xData.length; i++) {
+        var result = {
+           x: xData[i],
+           y : yData[i],
+           type : 'scatter',
+           showlegend: true,
+           legendgroup: labels[i],
+           mode : 'lines',
+           name : labels[i],
+           line : {
+              color: colors[i],
+              width : lineSize[i]
+           }
+        };
+        var result2 = {
+           x: [xData[i][0], xData[i][53]],
+           y : [yData[i][0], yData[i][53]],
+           type : 'scatter',
+           showlegend: false,
+           legendgroup: labels[i],
+           mode : 'markers',
+           name : '',
+           hoverinfo : 'skip',
+           marker : {
+              color: colors2[i],
+              size : 12
+           }
+        };
+        data.push(result, result2);
+      }
+      var layout = {
+        height : 900,
+        width : 1200,
+        xaxis : {
+           showline: true,
+           showgrid : false,
+           zeroline : false,
+           showticklabels : true,
+           linecolor : 'rgb(204,204,204)',
+           linewidth : 2,
+           autotick : true,
+           ticks : 'outside',
+           tickcolor : 'rgb(204,204,204)',
+           tickwidth : 2,
+           ticklen : 5,
+           tickfont : {
+              family: 'Arial',
+              size : 12,
+              color : 'rgb(82, 82, 82)'
+           }
+        },
+        yaxis: {
+           showline: true,
+           showgrid : false,
+           zeroline : false,
+           showticklabels : true,
+           linecolor : 'rgb(204,204,204)',
+           linewidth : 2,
+           autotick : true,
+           ticks : 'outside',
+           tickcolor : 'rgb(204,204,204)',
+           tickwidth : 2,
+           ticklen : 5,
+           tickfont : {
+              family: 'Arial',
+              size : 12,
+              color : 'rgb(82, 82, 82)'
+           },
+        },
+        autosize : false,
+        margin : {
+           autoexpand: true,
+           l : 100,
+           r : 150,
+           t : 110
+        },
+        annotations : [
+           {
+              xref: 'paper',
+              yref : 'paper',
+              x : 0.0,
+              y : 1.05,
+              xanchor : 'left',
+              yanchor : 'bottom',
+              text : 'Fluid Pressure',
+              font : {
+                 family: 'Arial',
+                 size : 30,
+                 color : 'rgb(37,37,37)'
+              },
+              showarrow : false
+           },
+           {
+              xref: 'paper',
+              yref : 'paper',
+              x : 0.5,
+              y : -0.1,
+              xanchor : 'center',
+              yanchor : 'top',
+              text : 'Iterations',
+              showarrow : false,
+              font : {
+                 family: 'Arial',
+                 size : 22,
+                 color : 'rgb(150,150,150)'
+              }
+           }
+        ]
+      };
+      for (var i = 0; i < xData.length; i++) {
+        var result = {
+        xref: 'paper',
+        x : 0.05,
+        y : yData[i][0],
+        text : yData[i][0],
+        xanchor : 'right',
+        yanchor : 'middle',
+        showarrow : false,
+        clicktoshow  : 'onout',
+        font : {
+           family: 'Arial',
+           size : 16,
+           color : 'black'
+        }
+        };
+        var result2 = {
+           xref: 'paper',
+           x : 0.95,
+           y : yData[i][53],
+           text : yData[i][53],
+           xanchor : 'left',
+           yanchor : 'middle',
+           font : {
+              family: 'Arial',
+              size : 16,
+              color : 'black'
+           },
+           showarrow : false,
+           clicktoshow  : 'onout'
+        };
+        layout.annotations.push(result, result2);
+      }
+      var config = {responsive: true,
+                    displaylogo: false};
+      Plotly.newPlot('Fluid Pressure', data, layout, config);
+    </script>
+
+    <div class="plotly" id="plotly">
+      <span onclick="document.getElementById('plotly').style.display='none'" class='none'>&times; </span>
+      <p>The Javascript file required for visualization is not located<br>
+      in the current directory.Please follow the link:<br>
+      <a href="https://cdn.plot.ly/plotly-latest.min.js" target="_blank">plotly-latest.min.js</a></p>
+      Click Control + S and save it to the current directory.
+    </div> 
+    <script>
+      if (!isPluginLoaded) {
+        document.getElementById('plotly').style.margin="10px 10% 60px 50%";
+      }
+      else {
+        document.getElementById('plotly').style.display='none';
+      }
+    </script>
+  </body>
+</html>

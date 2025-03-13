@@ -1,0 +1,15 @@
+-1
+       902
+CFD Summary Information
+1.2
+        -1
+        -1
+termination_criterion                    =          1
+number_of_iterations                     =         53
+u_momentum_imbalance                     =  6.328073100586e-13
+v_momentum_imbalance                     =  3.790242094973e-14
+w_momentum_imbalance                     =  4.933940060177e-15
+mass_imbalance                           =  1.715162342970e-12
+normalize_mass_imbalance                 =          1
+END OF PARAMETERS
+-999
