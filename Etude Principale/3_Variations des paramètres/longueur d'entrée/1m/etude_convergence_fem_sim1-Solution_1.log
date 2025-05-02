@@ -1,0 +1,129 @@
+ Thermal/Flow Analysis
+ =====================
+ MAYA Heat Transfer Technologies Ltd.
+
+
+ Simcenter 3D Thermal/Flow 2406.3  Jul 09 2024 (Build 20240709_3_d463a6da)
+
+ Simcenter 3D Installation Directory: C:\Program Files\Siemens\NX2406
+
+ Solver Installation Directory: C:/Program Files/Siemens/NX2406/nxcae_extras/tmg
+
+ Run directory specified for analysis:
+ .\
+
+ NX2TMG - Thermal/flow model file builder
+ ======================================================================
+ Time: Fri May 2 23:55:46 2025
+
+ +--------------------------------------------------------------------+                              
+ |                            Model Builder                           |                              
+ +--------------------------------------------------------------------+                              
+                                                                                                     
+ Reading model file...                                                                               
+ ...model file read.                                                                                 
+                                                                                                     
+ +--------------------------------------------------------------------+                              
+ |                            Model Summary                           |                              
+ +--------------------------------------------------------------------+                              
+                                                                                                     
+ Finite Element Model                                                                                
+ --------------------                                                                                
+                                                                                                     
+ Solver type:     Unknown                                                                            
+ Analysis type:   Unknown                                                                            
+ Solution type:   Unknown                                                                            
+ Simulation File:                                                                                    
+ Solution:                                                                                           
+                                                                                                     
+ Number of nodes in thermal model:                        0                                          
+ Number of elements in thermal model:                     0                                          
+                                                                                                     
+ Number of nodes in flow model:                           0                                          
+ Number of elements in flow model:                        0                                          
+                                                                                                     
+ Solution Options                                                                                    
+ ----------------                                                                                    
+                                                                                                     
+ Steady-State Analysis                                                                               
+ Finite Element Model                                                                                
+                                                                                                     
+ Ambient Temperature:                             0.000E+00 Unknown                                  
+ Ambient Pressure:                                0.000E+00 Unknown                                  
+ Gravitational Acceleration:                      0.000E+00 Unknown                                  
+ Gravity Direction: X: 0.000E+00  Y: 0.000E+00  Z: 0.000E+00                                         
+                                                                                                     
+ Performing mesh checks...                                                                           
+                                                                                                     
+  - interior and warping angle                                                                       
+    checks on fluid elements...                                                                      
+    ...angle checks on fluid                                                                         
+       elements completed.                                                                           
+                                                                                                     
+  - interior and warping angle                                                                       
+    checks on thermal elements...                                                                    
+    ...angle checks on thermal                                                                       
+       elements completed.                                                                           
+                                                                                                     
+  - coincident node check                                                                            
+    on fluid model...                                                                                
+    ...node check on fluid                                                                           
+       model completed.                                                                              
+                                                                                                     
+  - coincident node check                                                                            
+    on thermal model...                                                                              
+    ...node check on thermal                                                                         
+       model completed.                                                                              
+                                                                                                     
+  - coincident element check                                                                         
+    on fluid model...                                                                                
+                                                                                                     
+   ... coincident fluid elements                                                                     
+       check completed.                                                                              
+                                                                                                     
+ ...mesh checks completed.                                                                           
+                                                                                                     
+ Writing thermal model files...                                                                      
+ ...done.                                                                                            
+
+ Executing Thermal Solver Only
+
+ THERMAL - Thermal analysis
+ ======================================================================
+ Time: Fri May 2 23:55:46 2025
+
+
+ +--------------------------------------------------------------------+
+ | Solving Thermal Model - Elapsed Time: 00 min 00 sec                |
+ +--------------------------------------------------------------------+
+
+
+ MAIN - Prepare analysis
+ ======================================================================
+ Time: Fri May 2 23:55:46 2025
+
+ Cpu time=      0.0       MAIN Module
+
+     **  FATAL  7012 **
+     **  Error in TMG input file INPF:
+     **  Error in Program Control Card. 
+
+     **  Run aborted due to errors.
+
+
+
+ Error: MAIN module terminated abnormally.
+ Please review previous warnings and fatal errors.
+
+
+
+ +--------------------------------------------------------------------+
+ |                                END                                 |
+ +--------------------------------------------------------------------+
+
+ Solution elapsed time: 00 min 04 sec
+
+ Solve completed at:
+ ======================================================================
+ Time: Fri May 2 23:55:46 2025
+

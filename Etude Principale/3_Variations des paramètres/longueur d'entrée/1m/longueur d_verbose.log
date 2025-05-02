@@ -1,0 +1,11 @@
+
+     **  FATAL  7012 **
+     **  Error in TMG input file INPF:
+     **  Error in Program Control Card. 
+
+SIGMA        NaN     $ Stefan-Boltz Const                                                           
+                                              Fri May  2  TMG2406.3  5/02/2025  
+ Module, Peak Virtual Memory (MB), Peak Physical Memory (MB), Bytes Read (MB), Bytes Written (MB)
+ Solver stats: MAIN       5.8359      6.3242      0.0000      0.0000
+ Total elapsed time: MAIN       0.0348 sec
+ 

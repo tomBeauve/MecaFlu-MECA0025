@@ -4,7 +4,7 @@
 *           Maya Heat Transfer Technologies Ltd, 514-369-5706    
 *
 *        INPUT FILE: etude_convergence_fem_sim1-Solution_1.xml
-*        CREATED ON: Thu May  1 14:58:22 2025
+*        CREATED ON: Fri May  2 23:51:26 2025
 *          SIM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\MecaFlu-MECA0025\Etude Principale\1_Etude numerique\Etude de convergence\etude_convergence_fem_sim1.sim
 *          FEM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\MecaFlu-MECA0025\Etude Principale\1_Etude numerique\Etude de convergence\etude_convergence_fem.fem
 *
@@ -136,7 +136,7 @@
         <Value>0</Value>
       </Property>
       <Property name="Time Step">
-        <Value>  2.0000000E-03</Value>
+        <Value>  1.0000000E-02</Value>
       </Property>
       <Property name="Time Step Table">
         <Value> -7.7777700E+05</Value>
@@ -148,7 +148,7 @@
         <Value>1</Value>
       </Property>
       <Property name="Maximum Residuals">
-        <Value>  1.0000000E-12</Value>
+        <Value>  1.0000000E-06</Value>
       </Property>
       <Property name="Global Flow Imbalance Fraction Option">
         <Value>0</Value>
