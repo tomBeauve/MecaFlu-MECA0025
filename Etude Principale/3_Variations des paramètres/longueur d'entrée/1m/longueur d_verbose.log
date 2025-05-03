@@ -4,8 +4,8 @@
      **  Error in Program Control Card. 
 
 SIGMA        NaN     $ Stefan-Boltz Const                                                           
-                                              Fri May  2  TMG2406.3  5/02/2025  
+                                              Sat May  3  TMG2406.3  5/03/2025  
  Module, Peak Virtual Memory (MB), Peak Physical Memory (MB), Bytes Read (MB), Bytes Written (MB)
- Solver stats: MAIN       5.8359      6.3242      0.0000      0.0000
- Total elapsed time: MAIN       0.0348 sec
+ Solver stats: MAIN       5.9375      6.4609      0.0000      0.0000
+ Total elapsed time: MAIN       0.0500 sec
  

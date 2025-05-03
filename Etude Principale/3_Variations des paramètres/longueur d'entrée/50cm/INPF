@@ -1,0 +1,117 @@
+                                              Sat May  3 12:04:54 2025
+$ TMGVER:       2406.3
+$ 
+$ FEMNAM:                                                                       
+$ FESNAM:                                                                       
+$ 
+$ UNITS  0  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+$ PART ORIGIN  0.0000000E+00  0.0000000E+00  0.0000000E+00
+$ PART X_AXIS  0.0000000E+00  0.0000000E+00  0.0000000E+00
+$ PART Y_AXIS  0.0000000E+00  0.0000000E+00  0.0000000E+00
+$ PART Z_AXIS  0.0000000E+00  0.0000000E+00  0.0000000E+00
+-1
+M            231     $ Program Control   
+N            512     $ Output Control    
+IST            0     $ SINDA Cond Number 
+IA             0     $ SINDA Load Case   
+TLIN  0.0000E+00     $ Rad Linearize Temp
+SIGMA        NaN     $ Stefan-Boltz Const
+PSUN  0.0000E+00     $ Sun Rad Source Pow
+PIR   0.0000E+00     $ Earth IR Heat Src 
+MESH           2     $ Element Subdivsion
+KSP            0     $ Residual View Fac 
+RK    0.0000E+00     $ Small Raditve Cond
+$ Steady-State run
+$      GRADNT          TABS     DTP            DT           TST      TF
+  0.00000E+00   0.00000E+00       0   0.00000E+00   0.00000E+00       0
+-1
+RESTART OFF
+-1
+$ 
+$ Thermal Nodes - User Model:          0
+$ 
+-1
+$ 
+$ Thermal Elements - User Model
+$ 
+-1
+-1
+-1
+-1
+$
+$ -----
+$ Units
+$ -----
+$
+PARAM UNITS 0  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00
+$
+$ ---------------------------
+$ Solver Parameters - Thermal
+$ ---------------------------
+$
+PARAM ILU 0  0.000000E+00 0
+PARAM COND NEW
+PARAM SCRMESG 1
+PARAM CNVGTRA 1.0
+PARAM CSOLVE 2
+PARAM PDMAX -1.000000E-02
+PARAM HYDLOOP 100
+PARAM HYDDAMP  1.000000E+00
+PARAM MAXNODEID 0
+$
+$ -----------------------------
+$ Solver Parameters - Radiation
+$ -----------------------------
+$
+PARAM OPPENHEIM 1
+PARAM QOPPCAL
+GPARAM 4 420 1
+PARAM SPECTRA 0 14387.69 0           NaN 0 0 0 0
+$
+$ --------------------------------------
+$ Solution Attributes - Solution Details
+$ --------------------------------------
+$
+$
+$ ----------------------------------------
+$ Solution Attributes - Initial conditions
+$ ----------------------------------------
+$
+$
+$ ----------------------------------------
+$ Solution Attributes - Ambient Conditions
+$ ----------------------------------------
+$
+$
+$ Ambient Environment Temperature
+TABTYPE 1 TEMP TIME
+TABDATA 1  0.000000E+00  0.000000E+00
+$
+$ Ambient Environment Pressure
+TABTYPE 2 PABS TIME
+TABDATA 2  0.000000E+00  0.000000E+00
+$
+$ Ambient Environment Properties
+HYDENV  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00  0.000000E+00 SAMEMAT T1 T2
+$
+$ Radiative Environment Temperature
+TABTYPE 3 TEMP TIME
+TABDATA 3  0.000000E+00  0.000000E+00
+$
+$ ------------------------------------
+$ Solution Attributes - Result Options
+$ ------------------------------------
+$
+PRINT 0 0 ELTMAX
+$
+$ -------------------
+$ Physical Properties
+$ -------------------
+$
+$
+$ -------------------
+$ Material Properties
+$ -------------------
+$
+-1
+-1
