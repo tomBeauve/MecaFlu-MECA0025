@@ -4,9 +4,9 @@
 *           Maya Heat Transfer Technologies Ltd, 514-369-5706    
 *
 *        INPUT FILE: mapdata.xml
-*        CREATED ON: Fri May  2 23:27:46 2025
-*          SIM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\MecaFlu-MECA0025\Etude Principale\test\etude_convergence_fem_sim1.sim
-*          FEM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\MecaFlu-MECA0025\Etude Principale\test\etude_convergence_fem.fem
+*        CREATED ON: Sat May  3 17:49:27 2025
+*          SIM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\MecaFlu-MECA0025\Etude Principale\3_Variations des paramètres\Transient\etude_convergence_fem_sim1.sim
+*          FEM FILE: C:\Users\tbeau\OneDrive\Documents\Universite\BAC3\Mécanique des Fluides\Projet Simu\MecaFlu-MECA0025\Etude Principale\3_Variations des paramètres\Transient\etude_convergence_fem.fem
 *
 *=============================================================== 
 -->
@@ -203,9 +203,16 @@
       </Property>
       <Property name="Flow Output Times" type="arrayFloat">
         <Value>  2.0000000E+00</Value>
+        <Value>  2.0200000E+00</Value>
+        <Value>  2.0400000E+00</Value>
+        <Value>  2.0600000E+00</Value>
+        <Value>  2.0800000E+00</Value>
         <Value>  2.1000000E+00</Value>
+        <Value>  2.1500000E+00</Value>
         <Value>  2.2000000E+00</Value>
+        <Value>  2.2500000E+00</Value>
         <Value>  2.3000000E+00</Value>
+        <Value>  2.3500000E+00</Value>
         <Value>  2.4000000E+00</Value>
         <Value>  2.5000000E+00</Value>
         <Value>  2.6000000E+00</Value>
