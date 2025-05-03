@@ -3,13 +3,17 @@ import matplotlib.pyplot as plt
 
 # Fichiers et infos associées
 files = [
+    ("shearTop_1bis_3014elem.csv", "géométrie initiale"),
+    ("shear_fusiforme.csv", "anévrisme fusiforme")
+]
+"""
     ("shearTop_4_728elem.csv", "728 éléments"),
     # ("shearTop_2_2036elem.csv", "2036 éléments"),
     ("shearTop_1bis_3014elem.csv", "3014 éléments"),
     ("shearTop_5_5110elem.csv", "5110 éléments"),
     # ("shearTop_3_8250elem.csv", "8250 éléments"),
     ("shearTop_6_12132elem.csv", "12132 éléments")
-]
+"""
 
 colors = ["blue", "green", "orange", "red",
           "purple", "black", "brown", "pink", "gray"]
@@ -29,5 +33,5 @@ plt.ylabel("Tension pariétale (MPa)")
 plt.grid(True)
 plt.legend()
 plt.tight_layout()
-plt.savefig("plot/mesh_shear_convergence.png", dpi=300)
+plt.savefig("plot/comp_fusiforme.png", dpi=300)
 plt.show()

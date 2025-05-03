@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Fichiers et infos associées
+
 files = [
     ("pressureTop_4_728elem.csv", "728 éléments"),
     # ("pressureTop_2_2036elem.csv", "2036 éléments"),
@@ -10,6 +11,9 @@ files = [
     # ("pressureTop_3_8250elem.csv", "8250 éléments"),
     ("pressureTop_6_12132elem.csv", "12132 éléments")
 ]
+"""
+
+"""
 
 colors = ["blue", "green", "orange", "red",
           "purple", "black", "brown", "pink", "gray"]
